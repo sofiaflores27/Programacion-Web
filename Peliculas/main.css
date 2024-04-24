@@ -1,0 +1,34 @@
+.tamaño {
+  width: 50%;
+  aspect-ratio: 1 / 2;
+  object-fit: cover;
+  /*width: 200px;
+    padding-left:10px;*/
+}
+
+.aliniamiento {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+.caja {
+  background-image: url("fondo.jpeg");
+}
+
+.aliniamiento_foto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(0, 0, 0);
+}
+
+.aliniamiento_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.color_fondo {
+  background-color: brown;
+  border-radius: 90px;
+}

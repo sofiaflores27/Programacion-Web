@@ -1,0 +1,52 @@
+.flex {
+  display: flex;
+}
+
+.tamaño {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  /*width: 200px;
+      padding-left:10px;*/
+}
+
+.aliniamiento {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  grid-template-rows: repeat(3, 350px);
+  gap: 20px;
+  text-align: center;
+}
+.caja {
+  background-image: url("fondo.jpeg");
+}
+
+.aliniamiento_fotos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  border-radius: 15px;
+}
+
+.columna {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-auto-rows: auto;
+  grid: 15px;
+}
+
+.fondo_meowth {
+  background-color: rgb(245, 245, 154);
+  border-radius: 40px;
+}
+
+.fondo_snorlax {
+  background-color: rgb(60, 109, 139);
+  border-radius: 40px;
+}
+
+.fondo_gengar {
+  background-color: rgb(127, 72, 158);
+  border-radius: 40px;
+}

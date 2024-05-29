@@ -1,0 +1,35 @@
+.aliniamiento_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aliniamiento {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  grid-template-rows: repeat(3, 350px);
+  gap: 20px;
+  text-align: center;
+}
+
+.aliniamiento_foto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(0, 0, 0);
+}
+
+.fondo_producto1.jpeg {
+  background-color: rgb(245, 245, 154);
+  border-radius: 40px;
+}
+
+.fondo_pproducto.jpeg {
+  background-color: rgb(60, 109, 139);
+  border-radius: 40px;
+}
+
+.fondo_producto3.jpeg {
+  background-color: rgb(127, 72, 158);
+  border-radius: 40px;
+}

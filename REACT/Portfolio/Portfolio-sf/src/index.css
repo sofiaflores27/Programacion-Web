@@ -15,7 +15,7 @@
 
 a {
   font-weight: 500;
-  color: #ff6464;
+  color: #7fbcd2;
   text-decoration: inherit;
 }
 a:hover {
@@ -26,13 +26,23 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
+  min-width: 300px;
   min-height: 100vh;
+}
+
+.encabezado {
+  background-color: #bccef8;
+  color: rgb(255, 255, 255);
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  text-align: center;
+}
+
+.alinear {
+  display: flex;
 }
 
 button {
@@ -63,6 +73,6 @@ button:focus-visible {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: #ffffff;
   }
 }

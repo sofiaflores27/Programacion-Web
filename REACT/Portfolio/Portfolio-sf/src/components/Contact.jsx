@@ -4,22 +4,13 @@ const Contact = () => {
   return (
     <section id="contact">
       <h2>Contacto</h2>
-      <form
-        action="mailto:tuemail@ejemplo.com"
-        method="post"
-        enctype="text/plain"
-      >
-        <label htmlFor="name">Nombre:</label>
-        <input type="text" id="name" name="name" required />
+      <div class="fondo_email">
+        <h3>Email: bf@gmail.com</h3>
 
-        <label htmlFor="email">Correo Electrónico:</label>
-        <input type="email" id="email" name="email" required />
-
-        <label htmlFor="message">Mensaje:</label>
-        <textarea id="message" name="message" required></textarea>
-
-        <button type="submit">Enviar</button>
-      </form>
+        <div class="fondo_telefono">
+          <h3>Telefono: 1129384756</h3>
+        </div>
+      </div>
     </section>
   );
 };

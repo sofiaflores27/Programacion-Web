@@ -5,7 +5,15 @@ const Header = () => {
     <header class="encabezado">
       <nav>
         <ul>
-          <button class="custom-btn btn-2">inicio</button>
+          <a href="#footer">
+            <button class="custom-btn btn-2">Sobre Mi</button>
+          </a>
+          <a href="#contact">
+            <button class="custom-btn btn-2">Contactos</button>
+          </a>
+          <a href="#projects">
+            <button class="custom-btn btn-2">Proyectos</button>
+          </a>
         </ul>
       </nav>
       <h1>Sofia Flores</h1>

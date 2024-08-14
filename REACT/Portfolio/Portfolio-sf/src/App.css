@@ -41,9 +41,6 @@
   color: #dddddd;
 }
 
-//
-
-/* From Uiverse.io by AqFox */
 .custom-btn {
   width: 130px;
   height: 40px;
@@ -65,7 +62,7 @@
 
 .btn-2 {
   background: #004dff;
-  background: linear-gradient(0deg, #1eff00 0%, #004dff 100%);
+  background: linear-gradient(0deg, #bccef8 0%, #bccef8 100%);
   border: none;
 }
 
@@ -79,4 +76,14 @@
     -4px -4px 6px 0 rgba(116, 125, 136, 0.5),
     inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2),
     inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+}
+
+.fondo_email {
+  background-color: #bccef8;
+  border-radius: 0px;
+}
+
+.fondo_telefono {
+  background-color: #bccef8;
+  border-radius: 0px;
 }

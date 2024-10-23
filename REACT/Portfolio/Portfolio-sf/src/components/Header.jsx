@@ -4,8 +4,8 @@ const Header = () => {
   return (
     <header class="encabezado">
       <nav>
-        <ul>
-          <a href="#footer">
+        <ul className="botones-header">
+          <a href="about">
             <button class="custom-btn btn-2">Sobre Mi</button>
           </a>
           <a href="#contact">

@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(0, 0, 0, 0.87);
-  background-color: #f3e7e7;
+  background-color: #fdfdfd;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -23,16 +23,27 @@ a:hover {
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
+  margin-left: 60px;
+  margin-right: 60px;
   min-height: 100vh;
 }
 
 .encabezado {
   background-color: #bccef8;
   color: rgb(255, 255, 255);
+  padding: 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.botones-header {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
 }
 
 h1 {
@@ -42,7 +53,21 @@ h1 {
   color: rgb(255, 255, 255);
 }
 
+h2 {
+  font-size: 1.2em;
+  line-height: 1.1;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
 h3 {
+  font-size: 1.2em;
+  line-height: 1.1;
+  text-align: center;
+  color: rgb(7, 7, 7);
+}
+
+h4 {
   font-size: 1.2em;
   line-height: 1.1;
   text-align: center;
